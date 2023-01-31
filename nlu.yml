@@ -1,0 +1,172 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - is this a bot?
+
+- intent: name_entry
+  examples: |
+    - My name is [Jefferson](name)
+    - [jefferson](name:Jefferson) this side
+    - It's [jefferson](name:Jefferson)
+    - [giselle](name:Giselle) is my name
+    - [Giselle](name)
+    - [Carlos](name)
+    - [carlos](name:Carlos)
+    - My name is [Andre](name)
+    - [andre](name:Andre) this side
+    - It's [anne](name:Anne)
+    - [camila](name:Camila) is my name
+    - [Maria](name)
+    - [Rafel](name)
+    - [maria](name:Maria)
+    - It is [Joao](name)
+    - My name is [Joao](name)
+    - my name is [Pedro](name)
+    - name is [Melissa](name)
+    - my name is [Sabrina](name)
+    - name is [Joana](name)
+    - I am [Natalia](name)
+    - I am [Livia](name)
+    - I am [Brian](name)
+    - myself [Leandro](name)
+    - myself [Samanta](name)   
+
+- intent: buy_product
+  examples: |
+    - I want to buy a [Smart T-Shirt](product)
+    - I'd like to buy [Smart Glasses](product)
+    - I would like to purchase a pair of [Augmented Reality Glasses](product)
+    - I want to buy a [Smartwatch with Advanced Health Monitor](product)
+    - I am interested in buying a [Smart Home Hub](product)
+    - I want to buy a [Smart Fridge](product)
+    - I would like to acquire [Smart Glasses](product)
+    - I want to purchase a [Smart Suitcase](product) for my next trip
+    - I would like to buy a [Smart Wallet](product) to store my cards
+    - I want to buy a [Smart Backpack](product) for work
+    - I am interested in buying a [Smart Luggage](product) to store my things
+    - I want to buy a [Smart Hairbrush](product) to take care of my hair
+    - I would like to acquire a [Smart Toothbrush](product) to improve my oral hygiene
+    - I want to acquire a [Smart T-Shirt](product)
+    - I am looking to buy [Augmented Reality Glasses](product)
+    - I am interested in purchasing a [Smartwatch with Advanced Health Monitor](product)
+    - I am planning to buy a [Smart Home Hub](product)
+    - I want to make a purchase of a [Smart Fridge](product)
+    - I am considering buying a [Smart Glasses](product)
+    - I am seeking to buy a [Smart Suitcase](product) for my next trip
+    - I am in the market for a [Smart Wallet](product) to store my cards
+    - I am trying to buy a [Smart Backpack](product) for work
+    - I am looking to purchase a [Smart Luggage](product) to store my things
+    - I am thinking of buying a [Smart Hairbrush](product) to take care of my hair
+    - I am interested in acquiring a [Smart Toothbrush](product) to improve my oral hygiene
+    - I want to buy a [Smart Toothbrush](product)
+    - I'd like to buy [Smart Hairbrush](product)
+    - I would like to purchase a pair of [Smart Luggage](product)
+    - I want to buy a [Smart Backpack](product)
+    - I am interested in buying a [Smart Wallet](product)
+    - I want to buy a [Smart Suitcase](product)
+    - I would like to acquire [Smart Glasses](product)
+    - I want to purchase a [Smart Fridge](product) for my next trip
+    - I would like to buy a [Smart Home Hub](product) to store my cards
+    - I want to buy a [Smartwatch with Advanced Health Monitor](product) for work
+    - I am interested in buying a [Augmented Reality Glasses](product) to store my things
+    - I want to buy a [Smart T-Shirt](product) to take care of my hair
+    - I would like to buy the [Smart Toothbrush](product)
+    - I want to get a [Smart Hairbrush](product)
+    - I am looking to buy [AR Glasses](product)
+    - I'm interested in buying a [Smartwatch with Health Monitor](product)
+    - I am planning to buy the [Smart Home Hub](product) you got there
+    - I wanna make a purchase of a [Smart Fridge](product) please
+    - I am considering buying the [Smart Glasses](product)
+    - I am seeking to buy the [Smart Suitcase](product) right now
+    - I'm in the market for a [Smart Wallet](product) please
+    - I'm trying to buy the [Smart Backpack](product) now
+    - I am looking to get a [Smart Luggage](product)
+    - I'm thinking of buying that [Smart Hairbrush](product)
+    - I'm interested in getting a [Smart Toothbrush](product)
